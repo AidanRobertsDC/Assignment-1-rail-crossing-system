@@ -19,4 +19,4 @@ Blockage detection uses Inductive-loop detector between the tracks to detect any
 # The methord of blockage detection was suggested by AI.
 The train identification signal is recived from the train to avoid the train setting of the blockage detection.
 # The train identification signal is an evolution of Train-Aware Bypass Logic suggested by AI.
-
+The logic of this system is. If the train is detected lower the gates. After delay, if gate state isn't down stop the train. If train identification signal, then not blockage. If gate state is down and blockage, stop train and raise gates.
