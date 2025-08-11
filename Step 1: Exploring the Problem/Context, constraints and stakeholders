@@ -1,1 +1,8 @@
-
+The stakeholders of the rail crossing are the users and operators of the road and rail.
+It is legally and socially required for the crossing to uphold the highest standard of safety.
+This requires the technical constraints of being reliable and being able to tell when issues happen.
+This is why blockage detection, gate position detection and the ability to stop the train are needed.
+It is socially and economically required for the system to have minimal impact on business and travel.
+Economics require that the system is cheap to build and maintain. Society adds the constraint that the
+environmental impact of the system should be minimal. All these factors must be balanced when designing
+the railway crossing.
