@@ -1,1 +1,3 @@
 In the backround given for the problem there is a logical error where the gates would trap the vehicles crossing the tracks. In Restating the problem in my own words I have changes this to ensuring that the gates are down while the train is still passing through the crossing as I think was intended.
+
+The problem in my own words. To allow for vehicles to safely pass through a rail crossing I must design a logic-based control system where gates lower to stop traffic as the train approaches and passes through the crossing.
