@@ -1,1 +1,20 @@
+Inputs:
+
+Train detection.
+This input detects if the train is approaching or passing through the rail crossing by having the train's wheels complete a circuit in the tracks. If the train is detected, Train detection is true.
+
+Gate position   
+ This input returns if the gate is open or closed. If the gate is closed, Gate position is true
+
+Blockage detection 
+This input detects if there is a blockage on the track. If there is a blockage, Blockage detection is true.
+
+
+Outputs:
+
+Gates 
+Controls gates either side of the rails. To close, set gates to true.
+
+Stop the train. 
+If true this output stops the train to prevent collision.  
 
