@@ -1,1 +1,9 @@
 Solution 1
+The simple one.
+This solution prioritizes simplicity and therefore also minimises cost and environmental impact.
+The only input would be the train detection. The only output would be the gate control.
+To detect the train one rail would be conected to the positve side of a power supply and the other 
+rail would be conected to the negitve side of the power supply. When the train was aproching and 
+passing through the rail crossing, it's wheels would complete the circuit. By defult the power supplied
+into the gate motor causes it to rase, but when the trains wheels complete the train detection circuit
+the polarity supplied to the gate motor is reversed causing the gate to close.
