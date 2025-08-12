@@ -1,2 +1,3 @@
 Many railway crossings use a track circuit to detect on coming trains. Apon a train being detected, flashing lights are activated and gates are lowered after a delay. Once the
 train is no longer detected, the lights deactivate and the gates are raised. Some railway crossings have predictors at the start of the 'Up' and 'Down' approaches to the crossing.
+Predictors provide constant warning times for the flashing light operation.
