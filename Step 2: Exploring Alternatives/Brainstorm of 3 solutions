@@ -10,7 +10,7 @@ the polarity supplied to the gate motor is reversed causing the gate to close.
 
 Solution 2
 The safe one.
-This solution prioritizes safety though problem detection. The inputs for this system are train detection, gate state detection, blockage detection, train identification signal.
+This solution prioritizes safety though problem detection. The inputs for this system are train detection, gate state detection, blockage detection and train identification signal.
 The outputs of this system are gate motors and stopping the train. To detect the train one rail would be conected to the positve side of a power supply and the other 
 rail would be conected to the negitve side of the power supply. When the train was aproching and passing through the rail crossing, it's wheels would complete the circuit.
 A switch in the gate mount is actuated when the gate is closed.
@@ -23,4 +23,11 @@ The logic of this system is. If the train is detected lower the gates. After del
 
 Solution 3
 Default gate down one
-This solution has the gates down by defult 
+This solution has the gates down by defult. The inputs for this system are train detection, gate state detection, blockage detection, train identification signal and car detection.
+The outputs of this system are gate motors and stopping the train. To detect the train one rail would be conected to the positve side of a power supply and the other 
+rail would be conected to the negitve side of the power supply. When the train was aproching and passing through the rail crossing, it's wheels would complete the circuit.
+A switch in the gate mount is actuated when the gate is closed. Blockage detection uses Inductive-loop detector between the tracks to detect any vehicle stuck on the tracks.
+Car detection uses two Inductive-loop detector either side of the tracks to detect any vehicles waiting to cross. The train identification signal is recived from the train to
+avoid the train setting of the blockage detection. 
+The logic of this system is. If the train is not detected and cars are detected, raise gates and send stop the train. If cars not detected and blockage not detected lower gates.
+If gate state not closed then send stop the train.
