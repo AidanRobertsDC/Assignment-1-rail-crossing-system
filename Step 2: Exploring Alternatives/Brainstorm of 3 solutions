@@ -29,5 +29,5 @@ rail would be conected to the negitve side of the power supply. When the train w
 A switch in the gate mount is actuated when the gate is closed. Blockage detection uses Inductive-loop detector between the tracks to detect any vehicle stuck on the tracks.
 Car detection uses two Inductive-loop detector either side of the tracks to detect any vehicles waiting to cross. The train identification signal is recived from the train to
 avoid the train setting of the blockage detection. 
-The logic of this system is. If the train is not detected and cars are detected, raise gates and send stop the train. If cars not detected and blockage not detected lower gates.
-If gate state not closed then send stop the train.
+The logic of this system is. If the train is not detected and cars are detected, raise gates and store stop the train. If cars not detected and blockage not detected lower gates and clear storage.
+If gate state not closed then store stop the train. If gate state is closed then clear storage. If the train is detected send stored message.
