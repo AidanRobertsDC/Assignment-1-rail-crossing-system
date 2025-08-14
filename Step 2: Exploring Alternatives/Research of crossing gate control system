@@ -1,5 +1,8 @@
 Many railway crossings use a track circuit to detect on coming trains. Apon a train being detected, flashing lights are activated and gates are lowered after a delay. Once the
-train is no longer detected, the lights deactivate and the gates are raised. Some railway crossings have predictors at the start of the 'Up' and 'Down' approaches to the crossing.
+train is no longer detected, the lights deactivate and the gates are raised [1]. Some railway crossings have predictors at the start of the 'Up' and 'Down' approaches to the crossing.
 Predictors provide constant warning times for the flashing light operation. Predictors are indicated by signs next to the rail and require the on train drive not to incress speed
-untill the train has reached the railway crossing. Railway crossing predictors use the impedance and rate of change in impedance of the track circuit to find the distance and speed
-of the train.
+untill the train has reached the railway crossing [1]. Railway crossing predictors use the impedance and rate of change in impedance of the track circuit to find the distance and speed
+of the train [2].
+
+[1]Australian Rail Track Corporation Limited, “Working of Level Crossings -Rules 1 to 11,” Oct. 2015. Accessed: Aug. 14, 2025. [Online]. Available: https://www.artc.com.au/uploads/TA20-Section-9.pdf
+[2]“Level crossing signals,” Wikipedia, May 30, 2023. https://en.wikipedia.org/wiki/Level_crossing_signals
