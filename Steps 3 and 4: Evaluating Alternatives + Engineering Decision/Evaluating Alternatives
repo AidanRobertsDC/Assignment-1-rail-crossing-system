@@ -3,3 +3,12 @@ Solution 1 is simpler than the other solutions. It’s simplicity also allows fo
 Its simplicity also reduces environmental impact to construct and run. Reliability is also improved as there is less to go wrong. 
 This solution compromises on safety. It does not have the systems to stop the train if there is a blockage or the gates malfunction. 
 This increases the risk of the train colliding with vehicles crossing the track.
+
+Solution 2 
+Solution 2 is more complex due to the implementation of safety features that stop the train if there is a blockage on the track or the gates malfunction.
+This makes solution 2 more costly to construct and maintain. Reliability is reduced as there is more to go wrong. The environmental impact is also greater
+as more materials are required to construct it and it requires more power to run. In exchange for the downsides, solution 2 has improved safety.
+
+Solution 3
+Solution 3 has the same downsides as solution 2 but to a slightly greater extent due to the vehicle detectors on the road either side of track. 
+Solution 3 does not gain any improvements in safety over solution 2.
