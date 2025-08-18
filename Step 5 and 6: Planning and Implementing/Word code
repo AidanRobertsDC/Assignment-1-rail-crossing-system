@@ -1,1 +1,12 @@
+Solution 2 word code
 
+If a train is detected then send stored command
+If a train is detected and stored command isn't "stop the train" then lower the gates.
+Wait the time it takes the gates to lower
+If gate state isn't closed then store command "stop the train"
+
+If track impedance less than variable, then not blockage
+If gate state is down and blockage is detected, then store command "stop the train" and raise gates
+Then if blockage isn't detected clear stored command and return to start of word code
+
+If gate state is down and a train is not detected then clear stored command, raise gates and return to start of word code.
