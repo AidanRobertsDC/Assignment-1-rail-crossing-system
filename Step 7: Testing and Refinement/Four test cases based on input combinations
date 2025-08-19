@@ -1,4 +1,10 @@
 Possible inputs
-train detection, stored train command, gate state, blockage detection and track impedance > variable
+train detection, boolean, train detected or train not detected 
+stored train command, boolean, stop the train or clear
+gate state, boolean, closed or not closed 
+blockage detection, boolean, blockage detected or blockage not detected
+track impedance > variable, boolean, true or false
+
+
 
 
