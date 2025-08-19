@@ -5,17 +5,37 @@ gate state, boolean, closed or not closed
 blockage detection, boolean, blockage detected or blockage not detected
 track impedance > variable, boolean, true or false
 
+The outputs of the tests are determined using the flow chart.
+
 Test case 1
 The train is detected, the stored train command is stop the train, the gate state is closed, there is a blockage detected and track impedance > variable.
 The expected output of the systems with these inputs is. The stop the train command will be sent, the stored train command will be set to stop the train and the gates will be raised.
 The actual output of the systems with these inputs was. The stop the train command will be sent, the stored train command will be set to stop the train and the gates will be raised.
 
 Test case 2
-The train is not detected, the stored train command is clear, the gate state is open, A blockage is not detected and track impedance =< variable.
+The train is not detected, the stored train command is clear, the gate state is open, a blockage is not detected and track impedance =< variable.
 The expected output of the systems with these inputs is that nothing will happen.
 The actual output of the systems with these inputs is that nothing will happen.
 
 Test case 3
+The train is detected, the stored train command is clear, the gate state is open, a blockage is not detected and track impedance > variable.
+The expected output of the systems with these inputs is. The clear train command will be sent, the gates would fail to lower, the stored train command will be set to stop the train, 
+the stop the train command will be sent.
+The actual output of the systems with these inputs is. The clear train command will be sent, the gates would fail to lower, the stored train command will be set  
+to stop the train.
+
+Improvments to the logic 
+Where ever the train command is changed there must be a conection to stored train command and the starting shape. 
+This is so whenever the train command is updated the update is stored and the logic can run with the new input.
+The change to the logic has no affect on the outcome of test case 1 and 2.
+
+Test case 3 with improved logic 
+The train is detected, the stored train command is clear, the gate state is open, a blockage is not detected and track impedance > variable.
+The expected output of the systems with these inputs is. The clear train command will be sent, the gates would fail to lower, the stored train command will be set to stop the train, 
+the stop the train command will be sent.
+The expected actual of the systems with these inputs is. The clear train command will be sent, the gates would fail to lower, the stored train command will be set to stop the train, 
+the stop the train command will be sent.
+
 
 
 
