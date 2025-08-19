@@ -5,6 +5,8 @@ gate state, boolean, closed or not closed
 blockage detection, boolean, blockage detected or blockage not detected
 track impedance > variable, boolean, true or false
 
-
+Test case 1
+The train is detected, the stored train command is stop the train, the gate state is closed, there is a blockage detected and track impedance > variable.
+The expected output of the systems with these inputs is. The stop the train command will be sent, the stored train command will be set to stop the train and the gates will be raised.
 
 
