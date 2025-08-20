@@ -33,9 +33,11 @@ Test case 3 with improved logic
 The train is detected, the stored train command is clear, the gate state is open, a blockage is not detected and track impedance > variable.
 The expected output of the systems with these inputs is. The clear train command will be sent, the gates would fail to lower, the stored train command will be set to stop the train, 
 the stop the train command will be sent.
-The expected actual of the systems with these inputs is. The clear train command will be sent, the gates would fail to lower, the stored train command will be set to stop the train, 
+The actual output of the systems with these inputs is. The clear train command will be sent, the gates would fail to lower, the stored train command will be set to stop the train, 
 the stop the train command will be sent.
 
-
-
+Test case 4 with improved logic
+The train is not detected, the stored command is stop the train, the gate state is closed, a a blockage is not detected and track impedance > variable.
+The expected output of the systems with these inputs is. The train command would be set to clear and the gates would be raised.
+The actual output of the systems with these inputs is. The train command would be set to clear and the gates would be raised.
 
